@@ -12,8 +12,8 @@ At first you need to create a new instance of Folder class.
 f1 = fb.Folder(name='Test folder', path='./')
 ```
 There are 2 parameters:
-    +name - Folder's name
-    +path - Path to folder
+    + name - Folder's name
+    + path - Path to folder
 
 You can don't enter parameters, in that case name will be 'New Folder' and folder's path will be your current path
 ```python
@@ -24,6 +24,11 @@ print(f1.name)
 
 print(f1.path)
 # Output: '*Your current absolute path*'
+```
+
+To add new object in folder, use script below
+```python
+
 ```
 
 ### Ways to grow
