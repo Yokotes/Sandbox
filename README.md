@@ -18,10 +18,11 @@ There are 2 parameters:
 You can don't enter parameters, in that case name will be 'New Folder' folder's path will be your current path
 ```python
 f1 = fb.Folder()
+
 print(f1.name)
-//Output: 'New Folder'
+# Output: 'New Folder'
 print(f1.path)
-//Output: '*Your current absolute path*'
+# Output: '*Your current absolute path*'
 ```
 
 ### Ways to grow
