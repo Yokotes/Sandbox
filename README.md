@@ -15,12 +15,13 @@ There are 2 parameters:
     +name - Folder's name
     +path - Path to folder
 
-You can don't enter parameters, in that case name will be 'New Folder' folder's path will be your current path
+You can don't enter parameters, in that case name will be 'New Folder' and folder's path will be your current path
 ```python
 f1 = fb.Folder()
 
 print(f1.name)
 # Output: 'New Folder'
+
 print(f1.path)
 # Output: '*Your current absolute path*'
 ```
