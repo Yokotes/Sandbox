@@ -46,14 +46,11 @@ class Folder():
 
         Change paths to subfolders
         '''
-        if (self == parent): 
-            return
+        if (self == parent): return
         self.path = '{}\\{}'.format(parent.path, parent.name)
         for obj in self.__objects:
             if (type(obj) is Folder):
-                obj.path = '{}\\{}'.format(self.path, self.name)
-                obj.__change_path_subfolders(obj)
-            else: continue
+                obj.__change_path_subfolders(self)
 
     # Add object to the folder
     def add(self, obj):
